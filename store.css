@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    --bs-bg-opacity: 1;
+    background-color: #e97f89;
+}
+
+.nav div h1 {
+    color: white;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(244, 241, 241);
+}
+
+#slide1 {
+    display: flex;
+    justify-content: center;
+}
+
+#slide1 p {
+   
+    font-size: x-large;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#contenedorCategorias a{
+    text-decoration: unset;
+    color: black;
+}
+
+/* PC */
+@media only screen and (min-width: 600px) {
+    #contenedorCategorias {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contenedorCategorias div {
+        margin-right: 5%;
+
+    }
+
+    .formulario {
+        justify-content: center;
+        display: flex;
+        font-size: 20px;
+    }
+
+    #listadoProductos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(10, 0fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 1%;
+    }
+
+    #seleccionCategoria {
+        width: 25%;
+    }
+}
+
+/* Moviles */
+@media only screen and (max-width: 600px) {
+
+    #contenedorCategorias div {
+        margin-bottom: 5%;
+    }
+
+    .formulario {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    #seleccionCategoria {
+        width: 50%;
+    }
+}
+
+#contenedorCategorias div {
+    border: 2px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 35px 10px 35px;
+    box-shadow: -13px 12px 12px rgb(225, 225, 225);
+    background-color: #ffffff;
+}
+
+#titulo h1 {
+    text-align: center;
+}
+
+.productoImg {
+    width: 200px;
+    height: 200px;
+}
+
+.producto {
+    margin: 7%;
+    text-align: -webkit-center;
+}
+
+
+#ubicacion h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#ubicacion p {
+    font-size: x-large;
+}
+
+#ubicacion {
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+}
+
+#mapa {
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#mapa p {
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+}
+
+#contact h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario textarea {
+    width: 98%;
+}
+
+
+.formulario input,
+textarea {
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+footer {
+    background-color: #e97f89;
+    justify-content: space-around;
+    color: white;
+    font-style: oblique;
+    margin-top: 3%;
+}
+
+#pie {
+    display: flex;
+    justify-content: center;
+}
