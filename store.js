@@ -11,7 +11,7 @@ if (page != "storeAcercade.html") {
 
             for (let i = 0; i < data.length; i++) {
 
-                if (page == "storePrincipal.html") {
+                if (page == "index.html") {
                     document.getElementById("contenedorCategorias").innerHTML +=
                         `
                         <a href="storeBusqueda.html">
