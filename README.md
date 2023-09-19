@@ -1,2 +1,2 @@
-# store
+# Proyecto Store
 Proyecto NewStore
